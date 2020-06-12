@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-12T18:43:00.961Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3043917000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_deffinitions.TodaysDealaPage_stepDeffinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "",
+        "description": "",
+        "id": "search-product-on-amazon-todays-deals;",
+        "after": [
+          {
+            "result": {
+              "duration": 115821000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_deffinitions.TodaysDealaPage_stepDeffinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20051000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Iam at amzon.con home page",
+            "match": {
+              "location": "step_deffinitions.TodaysDealaPage_stepDeffinition.iam_at_amzon_con_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 630123000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on todays deals",
+            "match": {
+              "location": "step_deffinitions.TodaysDealaPage_stepDeffinition.i_click_on_todays_deals()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 865286000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on subscribe to get the page",
+            "match": {
+              "location": "step_deffinitions.TodaysDealaPage_stepDeffinition.i_click_on_subscribe_to_get_the_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1104760000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click to get back to the main page",
+            "match": {
+              "location": "step_deffinitions.TodaysDealaPage_stepDeffinition.i_click_to_get_back_to_the_main_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search product on amazon todays deals",
+    "description": "",
+    "id": "search-product-on-amazon-todays-deals",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/Features/TodaysDealsPage.feature",
+    "tags": []
+  }
+]
